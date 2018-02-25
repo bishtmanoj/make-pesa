@@ -1,4 +1,7 @@
 application/config/config.php
 application/config/database.php
 vendor/*
-mekapay.sql
+assets
+system
+uploads
+.htaccess
