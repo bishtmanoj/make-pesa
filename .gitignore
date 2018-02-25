@@ -1,8 +1,8 @@
 application/config/config.php
 application/config/database.php
 vendor/*
-assets
-system
-uploads
+assets/*
+system/*
+uploads/*
 .htaccess
 index.php
