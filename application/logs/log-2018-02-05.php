@@ -1,0 +1,16 @@
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+
+ERROR - 2018-02-05 06:18:47 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 06:18:47 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 08:47:41 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 08:47:41 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 10:23:16 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 10:23:16 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 10:23:17 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 10:23:17 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 12:09:28 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 12:09:28 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 12:11:16 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 12:11:16 --> Could not find the language line "welcome_home_navbar_right_create_account"
+ERROR - 2018-02-05 17:42:08 --> Could not find the language line "welcome_home_navbar_right_my_account"
+ERROR - 2018-02-05 17:42:08 --> Could not find the language line "welcome_home_navbar_right_create_account"

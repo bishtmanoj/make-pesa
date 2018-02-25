@@ -1,0 +1,288 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+
+body {
+  font-family: "Source Sans Pro", "Segoe UI", roboto;
+  letter-spacing: 0;
+  font-weight: 400;
+  font-size: 14px;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  background-color: #f1f1f1;
+  color: #222;
+}
+
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #0070BA;
+}
+a:hover,
+a:focus {
+  color: #0070BA;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Source Sans Pro", "Segoe UI", roboto;
+}
+
+.fa.fa-bars {
+	font-size: 14px;
+    color: #fff;
+	border: 2px solid #ccc;
+	border-radius: 13px;
+	width: 65px;
+	padding-top: 6px;
+	height: 30px;
+	
+}
+.well {
+    padding: 12px;
+    margin-bottom: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.05);
+    border: 1px solid rgba(0,0,0,.09);
+}
+
+.checkout-head-well {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(0,0,0,.09);
+}
+
+.checkout-head-well-logo {
+	text-transform: uppercase;
+	font-size: 19px;
+	text-decoration: none !important;
+}
+
+.checkout-head-pay-balance {
+	margin-top: -10px;
+	display: inline-block;	
+}
+
+.checkout-head-pay-balance a{
+	color: #222;
+	font-weight: 400;
+	font-size: 16px;
+	text-decoration: none;	
+}
+
+.checkout-head-pay-balance a:hover{
+	color: #5a5a5a;
+}
+
+.checkout-right-well {
+	text-align: center;
+}
+
+.checkout-right-well i{
+	color: #337AB7;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+.checkout-right-well h4{
+	font-size: 20px;
+	color: #337AB7;
+	font-weight: 400;
+}
+
+.checkout-right-well p{
+	color: #5a5a5a;
+	text-align: center;
+}
+
+hr.love {
+	border-top: 4px double #8c8b8b;
+	text-align: center;
+}
+hr.love:after {
+	content: 'or';
+	display: inline-block;
+	position: relative;
+	top: -15px;
+	padding: 0 10px;
+	background: #f1f1f1; /* #f0f0f0 */
+	color: #8c8b8b;
+	font-size: 15px; /* 18px */
+}
+.checkout-return-link {
+  width:100%;
+  display:block;
+  margin: 9px 0;
+  text-align: center;
+  
+}
+
+
+/* Pay summary
+-------------------------------------------------- */
+
+.checkout-pay-summary {
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(0,0,0,.09);
+}
+
+.checkout-pay-summary-right {
+	display: inline-block;	
+}
+
+.checkout-pay-item-summary {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(0,0,0,.09);
+}
+
+.checkout-pay-item-summary-amount {
+	font-weight: 500;
+	font-size: 13px;
+}
+
+
+
+/* Payment select
+*/
+.fund-payment-block {
+	color: #337AB7;
+	display: inline-block;
+	overflow: hidden;
+	background-color: #fff;
+	border: 2px solid #337AB7;
+	border-radius: 5px;
+	text-align: center;
+	width: 100px;
+	height: 50px;
+	margin: 7px;
+	cursor: pointer;
+}
+
+.fund-payment-block:hover {
+	color: #fff;
+	background-color: #337AB7;
+}
+
+.fund-payment-block p{
+	font-size: 13px;
+	width: 50px;
+	margin-left: -30px;
+	padding-top: 3px;
+	font-weight: 400;
+}
+
+
+.fund-payment-block:hover p{
+	color: #5BC0DE;
+}
+
+.fund-payment-block h4{
+	margin-top: 0;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+
+.fund-payment-select input[type="radio"]:empty {
+    display: none;
+}
+.fund-payment-select input[type="radio"]:empty ~ label {
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	font-weight: 400;
+	
+}
+
+.fund-payment-select-primary input[type="radio"]:checked ~ label:before {
+    content:'\2714';
+	color: #337AB7;
+    
+}
+
+/* Payment complete
+*/
+
+.checkout-complete-done {
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.checkout-complete-done h4{
+	margin-bottom: 10px;
+	padding-top: 10px;
+	font-weight: 300;
+}
+
+.checkout-complete-done i{
+	color: #ccc;
+}
+
+
+.voucher-center {
+	text-align: center;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+.voucher-center i{
+	color: #337AB7;
+}
+
+/* Loader style */
+  .signal-loading {
+	display: none;
+    border: 8px solid #0070ba;
+    border-radius: 30px;
+    height: 60px;
+	width: 60px;
+    opacity: 0;
+	text-align: center;
+	margin-top: 20px;
+	margin-left: 40%;
+	transform: translateX(-40%);
+	-ms-transform: translateX(-40%);
+ 
+    animation: pulsate 1s ease-out;
+    animation-iteration-count: infinite;
+	
+}
+
+@keyframes pulsate {
+    0% {
+      transform: scale(.1);
+      opacity: 0.0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1.2);
+      opacity: 0;
+    }
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media screen and (max-width: 767px) {
+.padding-page-bottom {
+	padding-top: 15px;
+}
+
+
+
+.visible-mobile {
+	display: none;
+	
+	
+}
+
+
+}
